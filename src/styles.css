@@ -1,0 +1,106 @@
+.table {
+  background-color: #3c3b43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d7dde0;
+  flex-direction: column;
+  width: 80%;
+}
+.table1 {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  margin: 10px;
+  width: 100%;
+}
+
+html {
+  background-color: #1b1a1e;
+}
+
+.col1 {
+  background-color: #1b1a1e;
+  width: 20%;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.col2 {
+  background-color: #1b1a1e;
+  width: 75%;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  margin: 5px;
+  height: 100%;
+}
+
+.row2 {
+  margin: 5px;
+  height: 50%;
+}
+
+.row1 {
+  margin-top: 5px;
+  font-size: 9px;
+  padding: 3px;
+}
+
+.box {
+  display: flex;
+  background-color: #3c3b43;
+  width: 100%;
+  margin: 2px;
+  text-align: center;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+.up-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 .row1 {
+  font-size: 12px;
+}
+
+.tit-sear {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Container {
+  display: flex;
+}
+
+.tit-sear input {
+  margin-top: 20px;
+}
+
+.head-cont {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.tit-down {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
