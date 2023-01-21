@@ -1,6 +1,9 @@
 import Cards from "./Cards";
+import Header from "./Header.js";
 
 export default function Card() {
+  function color() {}
+
   return (
     <div className="Container">
       <div className="sidebar">
@@ -23,9 +26,14 @@ export default function Card() {
         <div>
           <button>Medical</button>
         </div>
+        <hr className="line" />
+        <div>
+          <button onClick="color">Filters</button>
+        </div>
       </div>
 
       <div className="table">
+        <Header />
         <Cards />
         <Cards />
         <Cards />
