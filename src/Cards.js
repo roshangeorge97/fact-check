@@ -19,8 +19,10 @@ export default function Cards() {
               <div>Yes</div>
               <div>25%</div>
             </div>
-            <div className="down-box">
-              <input type="range" />
+            <div>
+              <div class="container1">
+                <div class="skill1 html"></div>
+              </div>
             </div>
           </div>
           <div className="box">
@@ -28,8 +30,10 @@ export default function Cards() {
               <div>No</div>
               <div>25%</div>
             </div>
-            <div className="down-box">
-              <input type="range" />
+            <div>
+              <div class="container1">
+                <div class="skill2 html"></div>
+              </div>
             </div>
           </div>
           <div className="box">
@@ -37,8 +41,10 @@ export default function Cards() {
               <div>Invalid</div>
               <div>0.00%</div>
             </div>
-            <div className="down-box">
-              <input type="range" />
+            <div>
+              <div class="container1">
+                <div class="skill3 html"></div>
+              </div>
             </div>
           </div>
         </div>

@@ -6,27 +6,27 @@ export default function Header() {
           <h2>Popular Markets</h2>
         </div>
         <div>
-          <input type="search" />
+          <input type="search" placeholder="Search markets" />
         </div>
       </div>
       <div className="tit-down">
         <div>
-          <button>OPEN</button>
+          <button className="open">OPEN</button>
         </div>
         <div>
-          <button>In Reporting</button>
+          <button className="report">IN REPORTING</button>
         </div>
         <div>
-          <button>Resloved</button>
+          <button className="resolve">RESOLVED</button>
         </div>
         <div>
-          <button>View</button>
+          <button>VIEW</button>
         </div>
         <div>
-          <input type="text" />
+          <label className="label">SORT BY</label> <select />
         </div>
         <div>
-          <button>Reload</button>
+          <button>RELOAD</button>
         </div>
       </div>
     </div>
